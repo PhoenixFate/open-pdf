@@ -19,7 +19,7 @@
           console.log("create test pdf")
           // 这儿的url， 就是通过 axios 进行请求的地址，只不过换成了从导航url进行请求的方式
 
-          let url = 'https://jbtest.njzhyl.cn/picture/test2.pdf'
+          let url = 'https://xxx.pdf'
 
           let url2 = 'b.pdf'
           this.pdfUrl = './static/web/viewer.html?file='+encodeURIComponent(url2)
